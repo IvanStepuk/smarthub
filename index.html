@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SmartHub — Магазин смартфонов</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <div class="logo__icon">📱</div>
+        <span>SmartHub</span>
+      </a>
+
+      <div class="search-bar desktop-only">
+        <input type="text" placeholder="Поиск смартфонов, брендов...">
+      </div>
+
+      <nav class="desktop-nav desktop-only">
+        <a href="index.html">Главная</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="catalog.html">Сравнение</a>
+        <a href="#">Акции</a>
+        <a href="#">Trade-In</a>
+      </nav>
+
+      <div class="header__actions desktop-only">
+        <a href="catalog.html" class="mobile-nav__item">
+          Корзина <span class="badge">2</span>
+        </a>
+        <a href="product.html" class="mobile-nav__item">Профиль</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="search-bar mobile-only">
+      <input type="text" placeholder="Найти смартфон, бренд...">
+    </div>
+
+    <div class="filters-chip-group">
+      <div class="chip chip--active">Флагманы</div>
+      <div class="chip">Камерофоны</div>
+      <div class="chip">Для игр</div>
+      <div class="chip">Долгая батарея</div>
+    </div>
+
+    <section class="hero-banner">
+      <span class="hero-banner__tag">ФЛАГМАН • Камера Falcon 180 Мп</span>
+      <h2>Honor Magic6 Pro</h2>
+      <p style="color: var(--text-secondary); font-size: 0.875rem;">Процессор Snapdragon 8 Gen 3, перископ Falcon 180 Мп и кремниево-углеродный аккумулятор 5600 мАч.</p>
+      <div class="hero-banner__price">109 990 ₽</div>
+      <a href="product.html" class="btn btn--primary" style="width: auto;">Подробнее</a>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">Популярные новинки</h2>
+      <div class="product-grid">
+        
+        <article class="product-card">
+          <img src="assets/iphone16promax.jpg" alt="iPhone 16 Pro Max" class="product-card__img">
+          <span class="hero-banner__tag">Топ продаж</span>
+          <h3 class="product-card__title">iPhone 16 Pro Max</h3>
+          <p style="font-size: 0.8125rem; color: var(--text-secondary);">256GB • Desert Titanium • A18 Pro</p>
+          <div class="product-card__price">149 990 ₽</div>
+          <a href="product.html" class="btn btn--primary">В корзину</a>
+        </article>
+
+        <article class="product-card">
+          <img src="assets/s24ultra.jpg" alt="Galaxy S24 Ultra" class="product-card__img">
+          <span class="hero-banner__tag">Хит</span>
+          <h3 class="product-card__title">Galaxy S24 Ultra</h3>
+          <p style="font-size: 0.8125rem; color: var(--text-secondary);">512GB • Titanium Gray • Snapdragon 8 Gen 3</p>
+          <div class="product-card__price">129 990 ₽</div>
+          <a href="product.html" class="btn btn--primary">В корзину</a>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <nav class="mobile-nav">
+    <a href="index.html" class="mobile-nav__item mobile-nav__item--active">
+      <span>Главная</span>
+    </a>
+    <a href="catalog.html" class="mobile-nav__item">
+      <span>Каталог</span>
+    </a>
+    <a href="catalog.html" class="mobile-nav__item">
+      <span class="badge">3</span>
+      <span>Сравнение</span>
+    </a>
+    <a href="catalog.html" class="mobile-nav__item">
+      <span class="badge">2</span>
+      <span>Корзина</span>
+    </a>
+    <a href="product.html" class="mobile-nav__item">
+      <span>Профиль</span>
+    </a>
+  </nav>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

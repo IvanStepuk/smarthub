@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SmartHub — Каталог смартфонов</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <div class="logo__icon">📱</div>
+        <span>SmartHub</span>
+      </a>
+      <h1 style="font-size: 1.125rem;">Каталог (142 модели)</h1>
+    </div>
+  </header>
+
+  <main class="container section">
+    
+    <div class="catalog-layout">
+      <aside class="filter-sidebar">
+        <h3 style="margin-bottom: 1rem;">Память</h3>
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="chip chip--active">256 ГБ</button>
+          <button class="chip">512 ГБ</button>
+        </div>
+      </aside>
+
+      <section>
+        <div class="product-grid">
+          
+          <article class="product-card">
+            <img src="assets/pixel9pro.jpg" alt="Pixel 9 Pro" class="product-card__img">
+            <h3 class="product-card__title">Pixel 9 Pro 256GB</h3>
+            <p style="font-size: 0.8125rem; color: var(--text-secondary);">OLED 120Гц • Tensor G4 • 50 Мп</p>
+            <div class="product-card__price">94 990 ₽</div>
+            <a href="product.html" class="btn btn--primary">В корзину</a>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/xiaomi14ultra.jpg" alt="Xiaomi 14 Ultra" class="product-card__img">
+            <h3 class="product-card__title">Xiaomi 14 Ultra 512GB</h3>
+            <p style="font-size: 0.8125rem; color: var(--text-secondary);">Snapdragon 8 Gen 3 • 1-дюймовый сенсор</p>
+            <div class="product-card__price">109 990 ₽</div>
+            <a href="product.html" class="btn btn--primary">В корзину</a>
+          </article>
+
+          <article class="product-card">
+            <img src="assets/oneplus12.jpg" alt="OnePlus 12" class="product-card__img">
+            <h3 class="product-card__title">OnePlus 12 16/512GB</h3>
+            <p style="font-size: 0.8125rem; color: var(--text-secondary);">Hasselblad Камера • 16 ГБ RAM</p>
+            <div class="product-card__price">79 990 ₽</div>
+            <a href="product.html" class="btn btn--primary">В корзину</a>
+          </article>
+
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <nav class="mobile-nav">
+    <a href="index.html" class="mobile-nav__item"><span>Главная</span></a>
+    <a href="catalog.html" class="mobile-nav__item mobile-nav__item--active"><span>Каталог</span></a>
+    <a href="product.html" class="mobile-nav__item"><span>Профиль</span></a>
+  </nav>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
